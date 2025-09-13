@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zero Blaze Szerver Szabályzat</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* Reset */
+* { box-sizing: border-box; margin:0; padding:0; font-family: 'Orbitron', sans-serif; }
+body { background: radial-gradient(circle at top, #0d0d0d, #111111); color:#fff; min-height:100vh; line-height:1.6; }
+
+/* Container */
+.container { max-width:1200px; margin:0 auto; padding:2rem; }
+
+/* Header */
+header { text-align:center; margin-bottom:2rem; }
+header h1 { font-size:3rem; color:#00ffff; text-shadow:0 0 10px #00ffff,0 0 20px #00ffff; }
+header p { color:#ff00ff; font-size:1.2rem; text-shadow:0 0 5px #ff00ff; }
+
+/* Navigation */
+nav { display:flex; justify-content:center; gap:1rem; margin-bottom:2rem; flex-wrap:wrap; }
+nav a { padding:0.5rem 1rem; border:2px solid #00ffff; border-radius:5px; color:#00ffff; text-decoration:none; text-shadow:0 0 5px #00ffff; transition:all 0.3s; }
+nav a:hover { background:#00ffff; color:#0d0d0d; box-shadow:0 0 15px #00ffff,0 0 30px #00ffff; }
+
+/* Sections */
+section { margin-bottom:3rem; }
+.section-box { border:2px solid #ff00ff; border-radius:15px; padding:1.5rem; background:rgba(10,0,20,0.6); box-shadow:0 0 20px #ff00ff,0 0 40px #ff00ff; }
+.section-box h2 { color:#00ffff; text-shadow:0 0 5px #00ffff; margin-bottom:1rem; }
+
+/* RP Fogalmak */
+.rp-list { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:1rem; }
+.rp-item { background:rgba(0,0,20,0.7); padding:1rem; border-radius:10px; text-align:center; transition:all 0.3s; }
+.rp-item:hover { background:rgba(0,0,40,0.8); box-shadow:0 0 10px #00ffff,0 0 20px #00ffff; }
+
+/* Footer */
+footer { text-align:center; margin-top:3rem; color:#888; font-size:0.9rem; }
+footer a { color:#00ffff; text-decoration:none; }
+footer a:hover { text-shadow:0 0 10px #00ffff,0 0 20px #00ffff; }
+
+/* Responsive */
+@media(max-width:768px){ nav{flex-direction:column;} }
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- Header -->
+<header>
+  <h1>Zero Blaze Szerver Szabályzat</h1>
+  <p>Üdv a Zero Blaze RP világában! Itt minden információt megtalálsz a szerver működéséről.</p>
+</header>
+
+<!-- Navigation -->
+<nav>
+  <a href="#rules">Szabályok</a>
+  <a href="#rp-terms">RP Fogalmak</a>
+  <a href="#discord-teams">Discord Csoportok</a>
+  <a href="#roles">Szerepek</a>
+</nav>
+
+<!-- Rules Section -->
+<section id="rules" class="section-box">
+  <h2>Alap Szabályok</h2>
+  <ul>
+    <li>Tilos a spam, trollkodás vagy zaklatás.</li>
+    <li>Mindig RP-ben viselkedj, a karaktered döntéseit követve.</li>
+    <li>Cheat, exploit vagy más unfair előny tiltott.</li>
+    <li>A moderátorok utasításait mindenki köteles követni.</li>
+    <li>Épületek és járművek rendeltetésszerű használata kötelező.</li>
+    <li>Vita esetén maradj tiszteletteljes, konfliktusokat ne a chatben rendezd.</li>
+    <li>Privát információkat (jelszavak, linkek) nem szabad megosztani.</li>
+    <li>Figyelmeztetés → Kick → Ban a szabályok súlyosságától függően.</li>
+    <li>Reklám más szerverekre tilos.</li>
+    <li>A szerver nyelve magyar, de RP-ben lehet angol is.</li>
+  </ul>
+</section>
+
+<!-- RP Terms Section -->
+<section id="rp-terms" class="section-box">
+  <h2>RP Fogalmak</h2>
+  <div class="rp-list">
+    <div class="rp-item">IC – In Character</div>
+    <div class="rp-item">OOC – Out of Character</div>
+    <div class="rp-item">EMS – Mentők</div>
+    <div class="rp-item">LEO – Rendőrség</div>
+    <div class="rp-item">PD – Police Department</div>
+    <div class="rp-item">Civil – Polgári karakter</div>
+    <div class="rp-item">Gang – Bűnszervezet</div>
+    <div class="rp-item">DM – Deathmatch</div>
+    <div class="rp-item">PG – Powergaming</div>
+    <div class="rp-item">MG – Metagaming</div>
+    <div class="rp-item">RP Event – Szerver esemény</div>
+    <div class="rp-item">Job – Munka/Professzió</div>
+    <div class="rp-item">Faction – Frakció</div>
+    <div class="rp-item">RP Story – Karakter történet</div>
+    <div class="rp-item">RP Conflict – Karakter konfliktus</div>
+    <div class="rp-item">RP Arrest – Letartóztatás</div>
+    <div class="rp-item">RP Heist – Rablás esemény</div>
+    <div class="rp-item">RP Trade – Csere, kereskedelem</div>
+    <div class="rp-item">RP Vehicle – Járműhasználat</div>
+    <div class="rp-item">RP Hospital – Kórház</div>
+  </div>
+</section>
+
+<!-- Discord Teams Section -->
+<section id="discord-teams" class="section-box">
+  <h2>Discord Csoportok</h2>
+  <ul>
+    <li><strong>Admin Team:</strong> Moderáció, szabályok betartatása, problémakezelés</li>
+    <li><strong>Support Team:</strong> Új játékosok segítése, technikai kérdések</li>
+    <li><strong>Event Team:</strong> RP események szervezése, storyline támogatása</li>
+    <li><strong>Content Team:</strong> Kreatív tartalmak, banner, emoji, bot fejlesztés</li>
+    <li><strong>Discord Moderators:</strong> Csatorna moderálás, OOC viták kezelése</li>
+  </ul>
+</section>
+
+<!-- Roles Section -->
+<section id="roles" class="section-box">
+  <h2>Szerepek</h2>
+  <ul>
+    <li><strong>Admin:</strong> Teljes hozzáférés a szerverhez, moderáció, szabályok</li>
+    <li><strong>Moderator:</strong> RP szabályok betartatása, support</li>
+    <li><strong>VIP:</strong> Prémium tag, extra jogosultságok, külön chat szobák</li>
+    <li><strong>Player:</strong> Alap játékos, RP részvétel</li>
+    <li><strong>Guest:</strong> Ideiglenes tag, belépés teszteléshez</li>
+  </ul>
+</section>
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 Zero Blaze | Csatlakozz Discordhoz <a href="https://discord.gg/WV9uT3wk9H" target="_blank">itt</a>
+</footer>
+
+</div>
+</body>
+</html>
